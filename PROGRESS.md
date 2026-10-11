@@ -1,3 +1,15 @@
+## 2026-10-11 15:19 | Adam | Codex
+**Task:** Human-requested repository presentation and GitHub About setup
+**Status:** done
+**What I did:**
+- Filled the GitHub About description, verified dashboard website link, and added 14 relevant repository topics for Constellation.
+- Replaced the outdated README with the product overview, existing trailer and demo screenshots, architecture, privacy requirements, Expo setup, checks, documentation links, and team roles.
+- Kept repository visibility, licensing, and application code unchanged; this increment only changes repository presentation and documentation.
+**How to run/test it:** `gh repo view adamissac/Constellation --json description,homepageUrl,repositoryTopics`; `git diff --check`; `curl -ILsS --max-time 20 https://formal-connection-dashboard.vercel.app`. Verified all 22 unique local README links/image paths exist and documented npm check scripts are present. Application test suites were not run for this documentation-only change.
+**Next step for whoever continues:** Open `README.md` on GitHub and keep the screenshots, feature descriptions, and setup commands aligned with future app changes.
+**Known issues / blockers:** The website link opens the separate dashboard, not an installable Expo mobile app; the README explicitly distinguishes them. Demo screenshots contain synthetic people.
+**Contract changes:** none
+
 ## 2026-09-29 23:16 | adam | Claude
 **Task:** Trailer update: beat-synced music and a more dynamic edit
 **Status:** done
